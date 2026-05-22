@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
     <title>자화상</title>
@@ -16,130 +15,95 @@
         body{
             font-family:'맑은 고딕';
             background:white;
-        }
-
-        header{
-
-            width:95%;
-            margin:auto;
-
-            background:#2f2f39;
-            color:white;
-
-            padding:10px;
+            font-size:14px;
         }
 
         #container{
-
             width:95%;
             margin:auto;
-
             border:1px solid gray;
         }
 
-        .topline{
+        header{
+            background:white;
+            color:black;
+            padding:10px;
+            font-weight:bold;
+        }
 
+        .topline{
             height:10px;
             background:#555561;
-
             margin-top:10px;
         }
 
         section{
-
-            width:70%;
-            float:left;
-
+            width:100%;
             padding:10px;
         }
 
         article{
+            width:100%;
+        }
 
-            width:50%;
-            margin:auto;
-
+        .poem-title{
+            width:100%;
             text-align:center;
         }
 
         article hr{
-
-            margin:20px 0;
+            width:300px;
+            margin:20px auto;
             border:1px solid #cccccc;
         }
 
         article p{
-
+            width:100%;
             text-align:left;
-
-            font-size:20px;
-
-            line-height:2.3;
-
-            margin-top:15px;
+            font-size:14px;
+            line-height:2;
+            margin-top:10px;
+            padding-left:20px;
+            font-weight:bold;
         }
 
         aside{
-
-            width:25%;
-
-            float:left;
-
-            padding:10px;
-
-            margin-top:420px;
+            margin-top:20px;
+            margin-left:20px;
         }
 
         aside h2{
-
-            font-size:40px;
-        }
-
-        aside ul{
-
-            margin-left:30px;
-            margin-top:20px;
-
-            font-size:24px;
-        }
-
-        aside li{
-
-            margin-top:8px;
-        }
-
-        footer{
-
-            clear:both;
-
-            padding:10px;
-
-            border-top:1px solid #cccccc;
-
-            color:gray;
-
             font-size:18px;
         }
 
-        .titlecolor{
+        aside ul{
+            margin-left:20px;
+            margin-top:10px;
+            font-size:14px;
+        }
 
-            color:#8b5a5a;
+        aside li{
+            margin-top:5px;
+        }
 
-            font-size:50px;
+        footer{
+            padding:10px;
+            border-top:1px solid #cccccc;
+            color:gray;
+            font-size:12px;
+            margin-top:20px;
         }
 
         h1{
-
-            font-size:55px;
+            font-size:24px;
         }
 
         h2{
-
-            font-size:45px;
+            font-size:22px;
         }
 
         h3{
-
-            font-size:35px;
+            font-size:18px;
         }
 
     </style>
@@ -148,27 +112,29 @@
 
 <body>
 
-<header>
-
-    <h1>자화상 - 윤동주</h1>
-
-</header>
-
 <div id="container">
+
+    <header>
+
+        <h1>자화상 - 윤동주</h1>
+
+    </header>
 
     <div class="topline"></div>
 
     <section>
 
-        <div class="titlecolor">section</div>
-
         <article>
 
-            <h2>&lt; 자화상 &gt;</h2>
+            <div class="poem-title">
 
-            <br>
+                <h2>&lt; 자화상 &gt;</h2>
 
-            <h3>윤동주</h3>
+                <br>
+
+                <h3>윤동주</h3>
+
+            </div>
 
             <hr>
 
@@ -213,8 +179,6 @@
 
     <aside>
 
-        <div class="titlecolor">aside</div>
-
         <h2>윤동주 시인의 다른 시</h2>
 
         <ul>
@@ -237,10 +201,6 @@
 
     <footer>
 
-        <div class="titlecolor">footer</div>
-
-        <br>
-
         ⓒ웹서비스프로그래밍 ©2020
 
     </footer>
@@ -248,5 +208,4 @@
 </div>
 
 </body>
-
 </html>
