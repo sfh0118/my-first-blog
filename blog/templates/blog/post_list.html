@@ -15,65 +15,131 @@
 
         body{
             font-family:'맑은 고딕';
-            font-size:14px;
+            background:white;
         }
 
         header{
-            width:70%;
+
+            width:95%;
             margin:auto;
-            background:#2b2b2b;
+
+            background:#2f2f39;
             color:white;
+
             padding:10px;
         }
 
         #container{
-            width:70%;
+
+            width:95%;
             margin:auto;
+
             border:1px solid gray;
         }
 
+        .topline{
+
+            height:10px;
+            background:#555561;
+
+            margin-top:10px;
+        }
+
         section{
+
             width:70%;
             float:left;
+
             padding:10px;
         }
 
         article{
+
             width:50%;
             margin:auto;
+
             text-align:center;
         }
 
         article hr{
-            margin:10px 0;
+
+            margin:20px 0;
+            border:1px solid #cccccc;
         }
 
         article p{
+
             text-align:left;
+
+            font-size:20px;
+
+            line-height:2.3;
+
             margin-top:15px;
-            line-height:2;
         }
 
         aside{
+
             width:25%;
+
             float:left;
+
             padding:10px;
-            margin-top:260px;
+
+            margin-top:420px;
+        }
+
+        aside h2{
+
+            font-size:40px;
+        }
+
+        aside ul{
+
+            margin-left:30px;
+            margin-top:20px;
+
+            font-size:24px;
+        }
+
+        aside li{
+
+            margin-top:8px;
         }
 
         footer{
+
             clear:both;
+
             padding:10px;
-            border-top:1px solid gray;
+
+            border-top:1px solid #cccccc;
+
+            color:gray;
+
+            font-size:18px;
         }
 
-        ul{
-            margin-left:20px;
-            margin-top:10px;
+        .titlecolor{
+
+            color:#8b5a5a;
+
+            font-size:50px;
         }
 
-        li{
-            margin-top:5px;
+        h1{
+
+            font-size:55px;
+        }
+
+        h2{
+
+            font-size:45px;
+        }
+
+        h3{
+
+            font-size:35px;
         }
 
     </style>
@@ -83,14 +149,18 @@
 <body>
 
 <header>
-    <h2>자화상 - 윤동주</h2>
+
+    <h1>자화상 - 윤동주</h1>
+
 </header>
 
 <div id="container">
 
+    <div class="topline"></div>
+
     <section>
 
-        <h1 style="color:#8b5a5a;">section</h1>
+        <div class="titlecolor">section</div>
 
         <article>
 
@@ -143,11 +213,12 @@
 
     <aside>
 
-        <h1 style="color:#8b5a5a;">aside</h1>
+        <div class="titlecolor">aside</div>
 
         <h2>윤동주 시인의 다른 시</h2>
 
         <ul>
+
             <li>서시</li>
             <li>자화상</li>
             <li>눈오는 지도</li>
@@ -159,13 +230,14 @@
             <li>못 자는 밤</li>
             <li>비오는 밤</li>
             <li>소년비</li>
+
         </ul>
 
     </aside>
 
     <footer>
 
-        footer
+        <div class="titlecolor">footer</div>
 
         <br>
 
