@@ -16,7 +16,6 @@ class Post(models.Model):
 
     image = models.ImageField(
         upload_to='intruder_image/%Y/%m/%d/',
-        default='intruder_image/20250610130053.png'
     )
 
     def publish(self):
