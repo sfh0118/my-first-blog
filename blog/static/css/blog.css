@@ -71,3 +71,6 @@ h4 {
 
     color: #000000;
 }
+.intruder-image-list{
+    object-fit: cover;
+}
